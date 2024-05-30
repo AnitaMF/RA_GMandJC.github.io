@@ -6,10 +6,10 @@ The program converts the counts of each variable within each sample into frequen
 
 Finally, the program generates a new CSV file containing the updated table with frequencies instead of raw counts.
 
-Here's an example of how you can execute the code using the provided sample data:
+## Here's an example of how you can execute the code using the provided sample data:
 
-python count_to_frequencies.py readCount_bacteria.csv
+    python count_to_frequencies.py readCount_bacteria.csv
 
-Here's an example of how can verify the results:
+## Here's an example of how can verify the results:
 
-python frequencyResults_testing.py readCount_bacteria_frequencies.csv
+    python frequencyResults_testing.py readCount_bacteria_frequencies.csv
