@@ -12,4 +12,4 @@ Finally, the program generates a new CSV file containing the updated table with 
 
 ## Here's an example of how can verify the results:
 
-    python frequencyResults_testing.py readCount_bacteria_frequencies.csv
+    python test_frequencies.py readCount_bacteria_frequencies.csv
