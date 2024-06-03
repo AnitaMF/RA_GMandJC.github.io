@@ -1,6 +1,9 @@
-# Get taxonomy and nucleotide sequence for organism of interest 
+# NCBI taxonomy and nucleotide sequence 
+- This tool can be used to get the full taxonomic profile & nucleotide sequence (gb format) for an organism of interest 
 
-This tool can be used to get the full taxonomic profile & nucleotide sequence (gb format) for an organism of interest 
+- to run the code you will need to provide the name of the organims of interes & your email (optional)
+
+- To get a nucleotide sequence you will need to provide the name of the *species* 
 
 ## Here's an example of how you can execute the code:
 
@@ -8,22 +11,22 @@ This tool can be used to get the full taxonomic profile & nucleotide sequence (g
 
 or without providing an email:
 
-    get_taxo_sequence.py *x* organism_name 
+    get_taxo_sequence.py X organism_name 
 
 ## Here' s an example of how the results look for Escherichia coli: 
 
-    get_taxo_sequence.py your_email@example.com Escherichia coli
+    get_taxo_sequence.py X Escherichia coli
 
-Maximum Records Returned: 1
-ID List: ['561']
-Taxonomy Information for Escherichia:
-no rank: cellular organisms
-superkingdom: Bacteria
-phylum: Pseudomonadota
-class: Gammaproteobacteria
-order: Enterobacterales
-family: Enterobacteriaceae    
+    Maximum Records Returned: 1
+    ID List: ['561']
+    Taxonomy Information for Escherichia:
+    no rank: cellular organisms
+    superkingdom: Bacteria
+    phylum: Pseudomonadota
+    class: Gammaproteobacteria
+    order: Enterobacterales
+    family: Enterobacteriaceae    
 
-GB data saved to sequence.gb
+    GB data saved to sequence.gb
 
 
