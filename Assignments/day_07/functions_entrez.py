@@ -11,6 +11,10 @@ def get_full_taxonomy_info(bacteria):
     
     print(f"Maximum Records Returned: {ret_max}")
     print(f"ID List: {id_list}")
+
+    if not id_list:
+        print("No taxonomy found.")
+        return []
     
     tax_infos = []
     for tax_id in id_list:

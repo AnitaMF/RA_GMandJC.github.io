@@ -5,6 +5,10 @@
 
 - To get a nucleotide sequence you will need to provide the name of the *species* 
 
+- the code required modules can be install by running: 
+
+    pip install -r requirements.txt
+
 ## Here's an example of how you can execute the code:
 
     get_taxo_sequence.py your_email@example.com organism_name 
