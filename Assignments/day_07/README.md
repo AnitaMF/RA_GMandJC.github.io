@@ -31,6 +31,6 @@ or without providing an email:
     order: Enterobacterales
     family: Enterobacteriaceae    
 
-    GB data saved to sequence.fasta
+   data saved to sequence.fasta
 
 
