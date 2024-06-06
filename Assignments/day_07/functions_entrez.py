@@ -31,21 +31,21 @@ def get_full_taxonomy_info(bacteria):
     
     return tax_infos
 
-def download_nucleotide(bacteria, filename="sequence.gb"):
-    handle = Entrez.esearch(db="nucleotide", term=bacteria, rettype="gb", idtype= "acc", retmax=1)
+def download_nucleotide(bacteria, filename="sequence.fasta"):
+    handle = Entrez.esearch(db="nucleotide", term=bacteria, rettype="fasta", idtype= "acc", retmax=1)
     record = Entrez.read(handle)
     count = int(record.get('Count', '0'))
     handle.close()
     
     if count > 0:
         nucleotide_id = record["IdList"][0]
-        handle = Entrez.efetch(db="nucleotide", id=nucleotide_id, rettype="gb", retmode="text")
-        gb_data = handle.read()
+        handle = Entrez.efetch(db="nucleotide", id=nucleotide_id, rettype="fasta", retmode="text")
+        data = handle.read()
         handle.close()
         
         with open(filename, "w") as file:
-            file.write(gb_data)
+            file.write(data)
         
-        print(f"GB data saved to {filename}")
+        print(f"fasta data saved to {filename}")
     else:
         print("No nucleotide records found for the specified bacteria.")
