@@ -21,16 +21,16 @@ or without providing an email:
 
     python get_taxo_sequence.py X Klebsiella pneumoniae
 
-Maximum Records Returned: 1
-ID List: ['561']
-Taxonomy Information for Escherichia:
-no rank: cellular organisms
-superkingdom: Bacteria
-phylum: Pseudomonadota
-class: Gammaproteobacteria
-order: Enterobacterales
-family: Enterobacteriaceae    
+    Maximum Records Returned: 1
+    ID List: ['561']
+    Taxonomy Information for Escherichia:
+    no rank: cellular organisms
+    superkingdom: Bacteria
+    phylum: Pseudomonadota
+    class: Gammaproteobacteria
+    order: Enterobacterales
+    family: Enterobacteriaceae    
 
-GB data saved to sequence.gb
+    GB data saved to sequence.fasta
 
 
