@@ -1,6 +1,6 @@
 import pytest
 import csv
-from frequency_functions import total_rowSum, count_to_frequencies
+from frequency_functions import total_rowSum
 
 def test_rowSum():
     filename = "readCount_bacteria.csv"
