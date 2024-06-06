@@ -3,10 +3,10 @@ import csv
 row_total_sum = []
 
 def total_rowSum(TNF_count):
-    global row_total_sum
     for row in TNF_count:
         curr_row_sum = sum(float(value) for value in row.values() if value)
         row_total_sum.append(curr_row_sum)
+    return row_total_sum
 
 def count_to_frequencies(TNF_count, row_total_sum):
     frequencies = []
