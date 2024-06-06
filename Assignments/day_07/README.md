@@ -30,7 +30,6 @@ or without providing an email:
     class: Gammaproteobacteria
     order: Enterobacterales
     family: Enterobacteriaceae    
-
-   data saved to sequence.fasta
+    data saved to sequence.fasta
 
 
