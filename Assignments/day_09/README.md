@@ -2,7 +2,7 @@
 
 This tool finds the longest DNA duplicated sequence (and its length) & it calculates GC content of the sequence 
 
-Identifying [Duplicated sequences] can be useful for different reasons: 
+Identifying *Duplicated sequences* can be useful for different reasons: 
 
 - Common during library preparations and can signal PCR biases- [more info](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/8%20Duplicate%20Sequences.html)
 
