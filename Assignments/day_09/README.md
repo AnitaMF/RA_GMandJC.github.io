@@ -13,8 +13,15 @@ Identifying *Duplicated sequences* can be useful for different reasons:
 
 ### USAGE 
 
+1) Install dependencies 
+
+```sh
+pip install -r requirements.txt
+```
+
 **Input**: fasta or GeneBank files 
 
+2) 
 **Choose at least one analysis (both can be executed as well):**
 
 --duplicate, -dp : finds the longest DNA duplicated sequence
